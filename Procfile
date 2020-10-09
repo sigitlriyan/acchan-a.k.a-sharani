@@ -1,1 +1,1 @@
-workr: node acchan2.js
+workr: node .
