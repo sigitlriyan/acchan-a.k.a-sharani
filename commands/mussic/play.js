@@ -2,9 +2,8 @@ const {MessageEmbed}= require("discord.js");
 const YouTube = require('simple-youtube-api');
 const fs = require ("fs");
 const ytdl = require ("ytdl-core");
-const{YT_API}= require("../../config.json"); 
 const { Client, Util } = require('discord.js');
-const youtube = new YouTube(YT_API);
+const youtube = new YouTube(process.env.YT_API);
 const queue = new Map();
 module.exports = {
   config: {
