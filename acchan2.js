@@ -25,7 +25,7 @@ const db = require ("quick.db");
 
 //variable kedua
 bot.queue = new Map();
-const youtube = new YouTube(YT_API);
+const youtube = new YouTube(process.env.YT_API);
 
 
 // const previx = "A.";
