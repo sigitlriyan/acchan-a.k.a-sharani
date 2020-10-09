@@ -1,0 +1,35 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "file bot discord yg ke dua suuuu",
+  "main": "acchan2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sigitlriyan",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "canvas": "^2.6.1",
+    "canvas-constructor": "^4.1.0",
+    "common-tags": "^1.8.0",
+    "dateformat": "^3.0.3",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "genius-lyrics": "^4.0.0",
+    "nekos.life": "^2.0.7",
+    "node-fetch": "^2.6.1",
+    "node-gyp": "^7.1.0",
+    "path": "^0.12.7",
+    "quick.db": "^7.1.2",
+    "request": "^2.88.2",
+    "simple-youtube-api": "^5.2.1",
+    "snekfetch": "^4.0.4",
+    "superagent": "^6.1.0",
+    "util": "^0.12.3",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^3.3.0",
+    "ytdl-core-discord": "^1.2.3"
+  }
+}
