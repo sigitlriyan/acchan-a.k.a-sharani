@@ -1,3 +1,4 @@
+require ("dotenv").config();
 const Discord = require ("discord.js") ;
 const {Client, Collection,MessageEmbed }= require ("discord.js");
 const bot = new Client();
@@ -10,7 +11,8 @@ const ms = require ("ms");//asal asalan
 const superagent =require("superagent");
 const {Canvas} = require ('canvas-constructor');
 const{resolve, join} = require("path");
-const {BOT_TOKEN, previx,YT_API} = require ("./config.json")
+// const BOT_TOKEN = require (process.env.BOT_TOKEN);
+const { previx,YT_API} = require ("./config.json");
 const {get}= require("snekfetch");
 const fetch = require ("node-fetch");
 const db = require ("quick.db");
@@ -181,4 +183,4 @@ bot.on("message", async message =>{
   
 })//akhr filter word
 
-bot.login(BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
